@@ -1,0 +1,20 @@
+play type: run, pass, kickoff, field goal, extra point, no play
+
+total plays per game:
+percentage of pass plays (pass plays / total plays)
+percentage of run plays (run plays / total plays)
+percentage of possession time (total game possession / game time length)
+
+finding possession time:
+home team total possession time
+away team total possession time
+current row time - next row time = play time in seconds
+add play time in seconds to total for that team
+    will need to check team
+store for each game when game finishes
+    will need to check for clock resets
+
+finding total yards:
+add yards to a total for each team
+add two totals together (may not be needed)
+
